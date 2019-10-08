@@ -1,6 +1,6 @@
 FROM hashicorp/terraform
 
-MAINTAINER Chris Every <eversmcc@gmail.com>
+LABEL maintainer="Chris Every <eversmcc@gmail.com>"
 
 RUN apk upgrade --update-cache && apk add python
 
