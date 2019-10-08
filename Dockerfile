@@ -2,7 +2,7 @@ FROM hashicorp/terraform
 
 LABEL maintainer="Chris Every <eversmcc@gmail.com>"
 
-RUN apk upgrade --update-cache && apk add python
+RUN apk upgrade --update-cache && apk add python curl
 
 RUN adduser -S tf tf
 
