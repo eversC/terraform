@@ -1,4 +1,4 @@
-FROM hashicorp/terraform
+FROM hashicorp/terraform:0.12.29
 
 LABEL maintainer="Chris Every <eversmcc@gmail.com>"
 
